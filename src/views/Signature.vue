@@ -7,6 +7,6 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 import { Action, Getter, Mutation, State } from "vuex-class";
 
 @Component
-export default class Canvas extends Vue {}
+export default class Signature extends Vue {}
 </script>
 <style lang="scss" scoped></style>

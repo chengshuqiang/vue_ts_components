@@ -9,6 +9,9 @@ a{text-decoration: none;color: #333}
 .clearfix{
   &:after{content: '';clear: both;height: 0;line-height: 0;visibility: hidden;display: inline-block}
 }
+p{
+  line-height: 0px;
+}
 /*fa 字体*/
 [class*="ak-icon-"]{font-family: FontAwesome;display: inline-block;}
 /*修改滚动条样式*/
