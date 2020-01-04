@@ -22,4 +22,4 @@ npm run lint
 
 ### 文档
 
-[组件文档](http://github.com/)
+[组件文档](https://github.com/chengshuqiang/vue_ts_components/tree/master/doc)
