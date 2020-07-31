@@ -2,7 +2,7 @@ module.exports = {
   root: true,
 
   env: {
-    node: true,
+    node: true
   },
 
   extends: ["plugin:vue/recommended", "@vue/prettier", "@vue/typescript"],
@@ -19,12 +19,12 @@ module.exports = {
         trailingComma: "all",
         jsxBracketSameLine: true,
         htmlWhitespaceSensitivity: "ignore",
-        endOfLine: "lf",
-      },
-    ],
+        endOfLine: "lf"
+      }
+    ]
   },
 
   parserOptions: {
-    parser: "@typescript-eslint/parser",
-  },
+    parser: "@typescript-eslint/parser"
+  }
 };
